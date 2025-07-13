@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nur Kahfi Mulya Pradana - CV</title>
+    <style>
+        :root {
+            --primary: #005792;
+            --secondary: #50B2C0;
+            --light: #F6F6F6;
+            --dark: #333333;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            margin: 0;
+            padding: 0;
+            background-color: var(--light);
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 30px;
+            background: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--secondary);
+            margin-bottom: 30px;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid var(--secondary);
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: var(--primary);
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        
+        .subtitle {
+            color: var(--secondary);
+            font-weight: 400;
+            margin: 5px 0;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .icon {
+            width: 20px;
+            height: 20px;
+        }
+        
+        section {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        
+        .experience-item, .skill-item {
+            margin-bottom: 20px;
+        }
+        
+        .job-title {
+            font-weight: bold;
+            color: var(--dark);
+            margin-bottom: 5px;
+        }
+        
+        .company, .duration {
+            color: var(--secondary);
+            font-size: 0.9rem;
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .skill-tag {
+            background-color: var(--primary);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="assets/kahfii.jpg"alt="Photograph of Nur Kahfi Mulya wearing casual shirt, friendly expression, neutral background" class="profile-img">
+            <h1>Nur Kahfi Mulya Pradana</h1>
+            <p class="subtitle">Electrical Engineer & Environmental Health Specialist</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/395afa57-cf40-4b62-81c1-6d804de7910d.png" alt="Phone icon" class="icon">
+                    <span>087802322359</span>
+                </div>
+                <div class="contact-item">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b22e8709-4d4f-4535-b1aa-aed3ff3f2cf1.png" alt="Email icon" class="icon">
+                    <span>nurkahfi25std@gmail.com</span>
+                </div>
+            </div>
+        </header>
+        
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Hello, my name is Kahfi. I work at the Majenang regional hospital, I have worked at the hospital for 5 years and I have mastered electrical engineering and some knowledge about environmental health.</p>
+            
+            <p>Electrical Engineer with the ability to handle the decrease in the building's electrical supply power, has a certificate of high voltage electrical competence. Competent in handling electrical trouble for distribution systems and supply lines between buildings & creating new lines for supply between buildings, and understands about K3 RS and K3 electricity.</p>
+        </section>
+        
+        <section>
+            <h2>Professional Experience</h2>
+            <div class="experience-item">
+                <div class="job-title">Electrical Engineer</div>
+                <div class="company">Majenang Regional Hospital</div>
+                <div class="duration">5 years</div>
+                <p>Electrical engineer and also masters the science of environmental health. Responsible for maintaining and improving the hospital's electrical systems to ensure uninterrupted power supply for critical medical equipment and facilities.</p>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-tag">Electrical Engineering</div>
+                <div class="skill-tag">High Voltage Systems</div>
+                <div class="skill-tag">Power Distribution</div>
+                <div class="skill-tag">Environmental Health</div>
+                <div class="skill-tag">K3 RS (Hospital OHS)</div>
+                <div class="skill-tag">K3 Electricity</div>
+                <div class="skill-tag">Troubleshooting</div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Certifications</h2>
+            <ul>
+                <li>High Voltage Electrical Competence Certificate</li>
+                <li>K3 (Occupational Health and Safety) Certification</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
+
